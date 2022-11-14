@@ -68,6 +68,11 @@
         "patterns": ["about website", "what is this website about", "i want to know more about the website", "tell me about the website"],
         "responses": ["This website is created by few students of CSE-19 batch, under I&E which provides OTT platforms on rent like for days,weeks etc.To know further contact the manager. Thank You!"],
         "context": [""]
-       }
-   ]
+       },
+        {"tag": "link",
+         "patterns": ["link please"," dp","dynamic program"],
+         "responses": ["Hello to you too!", "Hi! Please view this link: <a href='www.google.com'>www.google.com</a>"],
+         "context": [""]
+        }
+]
 }
